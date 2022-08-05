@@ -1,6 +1,8 @@
 body {
   font-family: arial, sans-serif;
+  background-image: url(src/img/clouds.jpg);
 }
+
 
 h1 {
   color: #878787;
@@ -36,9 +38,11 @@ li:first-letter {
 }
 
 .weather-app {
-  padding: 20px;
-  border: 1px solid #dadde1;
+  padding: 20px 0 40px 40px;
+  border: 1px solid grey;
   border-radius: 5px;
+  background: rgba(255, 255, 255, 0.37) 20%;
+  
 }
 
 .overview {
